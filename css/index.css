@@ -56,3 +56,13 @@ p{
     font-size: 90px;
 }
 
+@media only screen and (max-width: 600px){
+.logo{
+    display: none;
+}
+#medio{
+    flex-direction: column;
+}
+}
+
+

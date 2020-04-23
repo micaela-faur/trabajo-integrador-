@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: lightpink;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-column{
+    background-color: red
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.grid-column1{
+    background-color: red
+    margin-top: 20px;
+    height: 50px;
+    margin-right: 20px;
+}
+.grid-column3{
+    background-color: red
+    margin-top: 20px;
+    height: 50px;
+    margin-right: 20px;
+}
