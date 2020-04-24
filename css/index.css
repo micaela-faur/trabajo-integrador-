@@ -45,7 +45,10 @@ a{
     text-decoration: none;
     color: white;
 }
-
+.logo{
+    width: 200px;
+    height: 200px;
+}
 .nombre{
     position: relative ;
     top: 160px;

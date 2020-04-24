@@ -1,33 +1,54 @@
 body{
-    background-color: black;
+    font-family: 'Baloo Bhaina 2';
+    text-align: center;
+   text-transform: uppercase;
+    font-size: xx-large;
+    background-image: url(../imagenes/neon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header{
     width: 100%;
-    height: 50px;
-    background-color: lightpink;
+   padding: 10px;
+    background-color: rgba(255, 255, 255, 0.144);
+    color: white;
+}
+.nombre{
+    font-family: 'Monoton', cursive;
+    text-align: start;
+    text-decoration: none;
+    color: white;
+    
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin-top: 100px;
 }
 
-.grid-column{
-    background-color: red
-    height: 50px;
-    margin-top: 20px;
-    margin-right: 20px;
-}
 .grid-column1{
-    background-color: red
-    margin-top: 20px;
-    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
     margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.144);
+    align-items: center;
 }
-.grid-column3{
-    background-color: red
-    margin-top: 20px;
-    height: 50px;
-    margin-right: 20px;
+
+img{
+    width: 200px;
 }
+.a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0;
+   
+}
+.altura{
+    width: 200px;
+    height: 147px;
+}
+
