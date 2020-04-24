@@ -1,0 +1,29 @@
+body{
+   background-color: black;
+}
+header{
+   background-color:rgba(117, 112, 112, 0.411)
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: xx-large;
+}
+
+.canciones{
+    background-image: url(../imagenes/lucessi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 5fr;
+}
+.uno{
+    color: white;
+}
