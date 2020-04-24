@@ -1,9 +1,36 @@
 *{ 
     margin: 0;
 }
-header{
-    background-image: url(../imagenes/headerplaylist.jpg);
-    background-repeat: no-repeat;
-  background-size: 100%;
-  height: 300px;
+body{
+  background-image: url(../imagenes/fondo\ playlist.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.267);
+  margin-top: 10px;
+  font-size: xx-large;
+  color: white;
+}
+.titulos{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: xx-large;
+}
+
+.listas{
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px 5px 5px 5px;
+}
+.canciones{
+  margin: 20px 10px 20px 10px ;
+  color: white;
+  background-color: rgba(94, 94, 94, 0.11);
+}
+

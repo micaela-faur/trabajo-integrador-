@@ -11,6 +11,7 @@ body{
 header{
     background-image: url(../imagenes/rainbow-flame-ab114-printed-glass-splashback.jpg);
     background-repeat: no-repeat;
+
     height: 700px;
 }
 img{
@@ -60,13 +61,25 @@ p{
     font-size: 90px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 320px){
 .logo{
     display: none;
 }
 #medio{
     flex-direction: column;
 }
+}
+
+@media only screen and (max-width:768px){
+    #medio{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    #medio{
+        flex-direction: column;
+    }
 }
 
 
