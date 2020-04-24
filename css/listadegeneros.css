@@ -6,26 +6,30 @@ body{
     background-image: url(../imagenes/neon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 header{
-    width: 100%;
-   padding: 10px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
     background-color: rgba(255, 255, 255, 0.144);
     color: white;
-}
-.nombre{
     font-family: 'Monoton', cursive;
-    text-align: start;
-    text-decoration: none;
-    color: white;
+    padding: 15px;
     
+  
+}
+.titulo{
+    font-family: 'Baloo Bhaina 2';
+    text-align: center;
+    font-size: xx-large;
 }
 
 .grid-container{
     display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    margin-top: 100px;
+
 }
 
 .grid-column1{
@@ -34,7 +38,7 @@ header{
     justify-content: center;
     height: 200px;
     margin-right: 20px;
-    background-color: rgba(255, 255, 255, 0.144);
+    background-color: rgba(75, 74, 74, 0.411);
     align-items: center;
 }
 
@@ -51,4 +55,11 @@ img{
     width: 200px;
     height: 147px;
 }
-
+a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+footer{
+    height: 100px;
+}
