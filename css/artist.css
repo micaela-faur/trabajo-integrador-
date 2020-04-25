@@ -66,3 +66,13 @@ a{
     font-size: xx-large;
     text-decoration: none;
 }
+.footer{ 
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+h3{
+    color: white;
+    padding: 50px;
+    font-size: 35px;
+}

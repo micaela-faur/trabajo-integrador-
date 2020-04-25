@@ -34,3 +34,14 @@ header{
   background-color: rgba(94, 94, 94, 0.11);
 }
 
+.footer{ 
+  background-color: black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+h3{
+  color: white;
+  padding: 50px;
+  font-size: 35px;
+}
+

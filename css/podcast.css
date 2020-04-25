@@ -1,3 +1,13 @@
 body{
     background-image: url(../imagenes/Purple\ And\ Pink\ Smoke\ Design\ Wallpaper\ -\ Purple\ Wallpaper.jpg);
 }
+.footer{ 
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+h3{
+    color: white;
+    padding: 50px;
+    font-size: 35px;
+}

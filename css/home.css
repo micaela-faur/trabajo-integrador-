@@ -45,3 +45,13 @@ header{
     text-decoration: none;
     font-family: 'Monoton', cursive;
 }
+.footer{ 
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+h3{
+    color: white;
+    padding: 50px;
+    font-size: 35px;
+}
