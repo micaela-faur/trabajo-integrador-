@@ -1,3 +1,36 @@
+*{
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.315);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#buscador{
+   background-color: rgba(255, 255, 255, 0.384);
+   margin-top: 70px;
+}
+
+.a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nombre{
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Monoton', cursive;
+}
+
+
+
 .footer{ 
     background-color: black;
     display: grid;
