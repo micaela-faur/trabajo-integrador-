@@ -1,7 +1,6 @@
 body{
     font-family: 'Baloo Bhaina 2';
     text-align: center;
-   text-transform: uppercase;
     font-size: xx-large;
     background-image: url(../imagenes/neon.jpg);
     background-repeat: no-repeat;
@@ -19,9 +18,10 @@ body{
     width: 100%;
 }
 
-#buscador{
-   background-color: rgba(255, 255, 255, 0.384);
+#generos{
+   background-color: rgba(255, 255, 255, 0.151);
    margin-top: 70px;
+   font-family: 'Baloo Bhaina 2';
 }
 
 .a{
@@ -34,7 +34,7 @@ body{
     font-size: xx-large;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'Monoton', cursive;
+    font-family: 'Monoton';
 }
 
 #buscador{   
@@ -92,4 +92,8 @@ h3{
     position: relative;
     width: 300px;
     height: 150px;
+}
+h2{
+    color: white;
+    font-family: 'Baloo Bhaina 2;
 }
