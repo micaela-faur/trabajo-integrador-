@@ -7,6 +7,25 @@ body{
     background-size: cover;
     font-family: 'Baloo Bhaina 2', cursive;
 }
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    background-color: rgba(175, 170, 170, 0.164);
+}
+
+.a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nombre{
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Monoton', cursive;
+}
 
 .header{
     background-color: rgba(255, 255, 255, 0.178);
@@ -39,7 +58,7 @@ h1{
 .medio{
     height: 100px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.425);
+    background-color: rgba(255, 255, 255, 0.336);
 }
 .artistas{
     display: grid;

@@ -3,7 +3,6 @@
 }
 body{
     padding: 0;
-    display: grid;
     font-family: 'Baloo Bhaina 2', cursive;
     font-size: 45px;
 }
@@ -11,7 +10,7 @@ body{
 header{
     background-image: url(../imagenes/rainbow-flame-ab114-printed-glass-splashback.jpg);
     background-repeat: no-repeat;
-
+    background-size: cover;
     height: 700px;
 }
 img{
