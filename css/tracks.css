@@ -1,3 +1,4 @@
+
 body{
     background-image: url(../imagenes/nnn.jpg.png);
     background-repeat: no-repeat;
@@ -6,38 +7,38 @@ body{
     text-align: center;
     font-size: xx-large;
 }
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-evenly;
-    background-color: rgba(255, 255, 255, 0.315);
+    background-color: rgba(102, 101, 101, 0.61);
     position: fixed;
     top: 0px;
     width: 100%;
+    padding: 10px;
 }
 
-#generos{
-   background-color: rgba(255, 255, 255, 0.151);
-   margin-top: 70px;
-}
-
-.a{
-    color: white;
+.container a{
+    color: rgb(247, 244, 244);
     text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+    color: white;
+     padding: 10px;
 }
 .nombre{
     font-size: xx-large;
-    text-transform: uppercase;
     text-decoration: none;
+    padding: 10px;
 }
 
-#buscador{   
-    margin-top: 70px;
-    background-color: rgba(255, 255, 255, 0.281);
 
+
+#generos{
+   background-color: rgba(255, 255, 255, 0.151);
+   margin-top: 110px;
+   
 }
+
 
 .grid-container{
     display: grid;
@@ -52,6 +53,7 @@ body{
     justify-content: center;
     height: 200px;
     margin-right: 20px;
+    margin-left: 20px;
     background-color: rgba(75, 74, 74, 0.411);
     align-items: center;
 }
@@ -59,18 +61,12 @@ body{
 img{
     width: 200px;
 }
+
 .a{
     text-decoration: none;
     color: white;
     padding-bottom: 0;
 }
-
-a{
-    color: white;
-    padding: 15px;
-    text-decoration: none;
-}
-
 
 .footer{ 
     background-color: black;
@@ -91,5 +87,5 @@ h3{
 }
 h2{
     color: white;
-    font-family: 'Baloo Bhaina 2;
+    
 }
