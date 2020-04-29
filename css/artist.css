@@ -7,54 +7,44 @@ body{
     background-size: cover;
     font-family: 'Baloo Bhaina 2', cursive;
     background-attachment: scroll;
+    text-align: center;
 }
 .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: rgba(175, 170, 170, 0.5);
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    
+    background-color: rgba(102, 101, 101, 0.61);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    font-size: xx-large;
+}
+
+.nombre{
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Monoton', cursive;
+    padding: 10px;
 }
 
 .container a{
-    text-transform: uppercase;
-    padding: 10px;
-}
-.nombre{
-    font-family: 'Monoton', cursive;
-    padding: 10px;
-}
-
-.play-on{
+    color: white;
+    padding-top: 50%;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: xx-large;
-    font-family: 'Monoton', cursive;
+}
+#artist{
+    background-color: rgba(255, 255, 255, 0.137);
+    margin-top: 100px;
+    height: 70px;
 }
 h2{
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    font-size: xxx-large;
-    padding-top: 5px;
+    color: white; 
+    font-size: 50px;
 }
 
-h1{
-    text-align: center;
-    padding-top: 0;
-    color: white;
-    font-size: xx-large;
-    text-transform: uppercase ;
-}
-.medio{
-    margin-top: 90px;
-    height: 68px;
-    background-color: rgba(255, 255, 255, 0.144);
-   padding-bottom: 8px;
-}
+
+
 .artistas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

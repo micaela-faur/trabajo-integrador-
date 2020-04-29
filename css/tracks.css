@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 
 body{
     background-image: url(../imagenes/nnn.jpg.png);
@@ -5,46 +8,47 @@ body{
     background-size: cover;
     background-attachment: scroll;
     text-align: center;
-    font-size: xx-large;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
 
 .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-evenly;
     background-color: rgba(102, 101, 101, 0.61);
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    font-size: xx-large;
 }
 
-.container a{
-    color: rgb(247, 244, 244);
-    text-align: center;
-    color: white;
-     padding: 10px;
-}
 .nombre{
     font-size: xx-large;
+    text-transform: uppercase;
     text-decoration: none;
+    font-family: 'Monoton', cursive;
     padding: 10px;
 }
-
-
-
-#generos{
-   background-color: rgba(255, 255, 255, 0.151);
-   margin-top: 110px;
-   
+.container a{
+    color: white;
+    padding-top: 50%;
+    text-decoration: none;
 }
 
+#tracks{
+   background-color: rgba(255, 255, 255, 0.137);
+   margin-top: 100px;
+   height: 70px;
+}
+h2{
+    color: white; 
+    font-size: 50px;
+}
 
 .grid-container{
     display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    margin-top: 100px;
-
 }
 
 .grid-column1{
@@ -62,7 +66,8 @@ img{
     width: 200px;
 }
 
-.a{
+.grid-container a{
+    font-size: x-large;
     text-decoration: none;
     color: white;
     padding-bottom: 0;
@@ -84,8 +89,4 @@ h3{
     position: relative;
     width: 300px;
     height: 150px;
-}
-h2{
-    color: white;
-    
 }

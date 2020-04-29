@@ -8,17 +8,16 @@ body{
 
 header{
     background-image: url(../imagenes/rainbow-flame-ab114-printed-glass-splashback.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
     font-size: xx-large;
 }
 .container p{
     font-family: 'Monoton', cursive;
+    color: white;
 }
 
 img{
-    position: relative;
     width: 300px;
     height: 150px;
 }
@@ -37,24 +36,15 @@ h3 {
     background-color: rgba(102, 101, 101, 0.61);
     display: flex;
     justify-content: space-evenly;
-    color: white;
-    flex-direction: row;
     align-items: center;
     padding-top: 15px;
-}
-.filas{
-    flex-direction: row;
-    align-items: center;
 }
 
 a{
     text-decoration: none;
     color: white;
 }
-.logo{
-    width: 200px;
-    height: 200px;
-}
+
 .nombre{
     position: relative ;
     top: 160px;
@@ -77,6 +67,12 @@ a{
 #medio{
     flex-direction: column;
 }
+.footer{
+    display: inline-flex;
+
+
+}
+
 }
 
 @media only screen and (max-width:768px){
