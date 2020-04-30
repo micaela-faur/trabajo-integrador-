@@ -1,46 +1,48 @@
+*{
+    margin: 0px;
+}
 body{
-    font-family: 'Baloo Bhaina 2';
     text-align: center;
     font-size: xx-large;
     background-image: url(../imagenes/neon.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
+
 .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-evenly;
     background-color: rgba(102, 101, 101, 0.61);
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
-
-#generos{
-   background-color: rgba(255, 255, 255, 0.151);
-   margin-top: 70px;
-   font-family: 'Baloo Bhaina 2';
-}
-
-.a{
+    display: flex;
+    justify-content: space-evenly;
     color: white;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    font-size: xx-large;
 }
+
 .nombre{
     font-size: xx-large;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: 'Monoton';
+    font-family: 'Monoton', cursive;
+    padding: 10px;
+}
+.container a{
+    color: white;
+    padding-top: 50%;
+    text-decoration: none;
 }
 
-#buscador{   
-    margin-top: 70px;
-    background-color: rgba(255, 255, 255, 0.281);
-
+#tracks{
+   background-color: rgba(255, 255, 255, 0.137);
+   margin-top: 100px;
+   height: 70px;
+}
+h2{
+    color: white; 
+    font-size: 50px;
 }
 
 .grid-container{
@@ -62,17 +64,12 @@ body{
 
 img{
     width: 200px;
+    height: 120px;
 }
-.a{
+.grid-container a{
     text-decoration: none;
     color: white;
     padding-bottom: 0;
-}
-
-a{
-    color: white;
-    padding: 15px;
-    text-decoration: none;
 }
 
 
