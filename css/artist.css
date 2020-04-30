@@ -43,7 +43,11 @@ body{
     color: white; 
     font-size: 50px;
 }
-
+.artista1 a {
+    color:rgb(52, 255, 144);
+    text-decoration: none;
+    font-size: x-large;
+}
 .artistas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -137,4 +141,5 @@ footer h3{
         width: 150px;
         height: 100px;
     }
+    
 }
