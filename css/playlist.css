@@ -70,14 +70,7 @@ h3{
 .canciones a{
 color: mediumseagreen ;
 }
-.listas img{
-   left: 0;
-    position: absolute;
-    right: 0px;
-    top: 320px;
-    height: 50px;
-    margin-left: 30px;
-}
+
 }
 h4{
   font-size: large;
