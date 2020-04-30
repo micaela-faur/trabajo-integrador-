@@ -56,7 +56,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
+    height: 300px;
     margin-right: 20px;
     background-color: rgba(75, 74, 74, 0.411);
     align-items: center;
@@ -93,4 +93,13 @@ h3{
 h2{
     color: white;
     font-family: 'Baloo Bhaina 2;
+}
+h4{
+    color: white;
+    font-size: smaller;
+    text-align: center;
+}
+h5{
+    color: white;
+    font-size: xx-large;
 }
