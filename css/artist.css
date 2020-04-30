@@ -8,6 +8,7 @@ body{
     font-family: 'Baloo Bhaina 2', cursive;
     background-attachment: scroll;
     text-align: center;
+    padding: 0px;
 }
 .container{
     background-color: rgba(102, 101, 101, 0.61);
@@ -81,7 +82,59 @@ footer h3{
 
 @media only screen and (max-width: 320px){
     .artistas{
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
        margin-left: 50%;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .footer{
+        display: inline-flex;
+    }
+    .container{
+        width: 600px;
+    }
+    #artist{
+        width: 600px;
+    }
+    .search{
+        margin-left: 225px;
+    }
+    .artistas{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .artistas{
+        grid-template-columns: 1fr;
+        margin-left: 250px;
+        width: 350px;
+    }
+    .artista1{
+        padding-top: 30px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .footer{
+        display: inline-flex;
+    }
+    .container{
+        width: 800px;
+    }
+    #artist{
+        width: 800px;
+    }
+    .search{
+        margin-left: 110px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    img{
+        padding-top: 20px;
+        width: 150px;
+        height: 100px;
     }
 }
