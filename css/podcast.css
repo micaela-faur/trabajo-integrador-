@@ -50,13 +50,13 @@ h2{
     display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    margin-top: 100px;
+   height: 200px;
 }
 
 .grid-column1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 200px;
+    height: 210px;
     margin-right: 20px;
     margin-left: 20px;
     background-color: rgba(75, 74, 74, 0.411);
@@ -76,7 +76,6 @@ img{
 
 a{
     color: white;
-    padding: 15px;
     text-decoration: none;
 }
 
@@ -101,4 +100,9 @@ h3{
 h2{
     color: white;
     font-family: 'Baloo Bhaina 2;
+}
+img{
+    height: 140px;
+    width: 160px;
+    padding: 10px;
 }
