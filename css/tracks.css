@@ -102,10 +102,81 @@ footer h3{
         flex-direction: column;
     }
 
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-column1{
+        padding-top: 15px;
+        height: 500px;
+    }
+
 }
 
 @media only screen and (max-width:768px){
+    .container{
+        flex-direction: column;
+        width: 440px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .grid-column1{
+        p
+    }
+
+    #tracks{
+        width: 440px;
+    }
+
+    .search{
+        margin-left: 0px;
+    }
+}
    
 
 @media only screen and (max-width:1024px){
-    
+    .container{
+        flex-direction: column;
+        width: 440px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        
+    }
+
+    .grid-column1{
+        padding-top: 5px;
+        height: 600px;
+        width: 500px;
+    }
+
+    #tracks{
+        width: 440px;
+    }
+
+    .search{
+        margin-left: 0px;
+    }
+
+    .container{
+        width: 600px;
+    }
+    #tracks{
+        width: 600px;
+    }
+    .search{
+        margin-right: 340px;
+    }
+    footer h3{
+        font-size: x-large;
+    }
+}
