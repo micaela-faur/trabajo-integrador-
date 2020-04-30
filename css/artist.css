@@ -53,7 +53,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     margin: 20px;
     gap: 25px;
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(126, 124, 124, 0.233);
 }
 .artista1{
     display: flex;
