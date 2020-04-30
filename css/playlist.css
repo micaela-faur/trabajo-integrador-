@@ -71,10 +71,14 @@ h3{
 .an{
 color: mediumseagreen ;
 }
-.img{
+img{
   display: flex;
+  position: absolute;
+  margin: 0px;
+  padding-bottom: 20px;
   flex-direction: column;
   width: 100px;
-
 }
-
+h4{
+  font-size: large;
+}
