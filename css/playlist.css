@@ -1,20 +1,41 @@
 *{ 
     margin: 0;
 }
+*{
+  margin: 0;
+}
 body{
-  background-image: url(../imagenes/nnn.jpg.png);
+  background-image: url(../imagenes/play9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Baloo Bhaina 2', cursive;
+  background-attachment: scroll;
+  
+}
+.container{
+  background-color: rgba(102, 101, 101, 0.61);
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  flex-direction: row;
+  padding-top: 15px;
+  font-size: xx-large;
+  align-items: center;
 }
 
-header{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.267);
-  margin-top: 10px;
+.nombre{
   font-size: xx-large;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Monoton', cursive;
+  padding: 10px;
+}
+
+.container a{
   color: white;
+  padding-top: 50%;
+  text-decoration: none;
+}
 }
 .titulos{
   text-decoration: none;
@@ -27,11 +48,14 @@ header{
   text-decoration: none;
   text-transform: uppercase;
   margin: 5px 5px 5px 5px;
+  text-align: center;
+  
 }
 .canciones{
   margin: 20px 10px 20px 10px ;
   color: white;
-  background-color: rgba(94, 94, 94, 0.11);
+  background-color: rgba(112, 112, 112, 0.062);
+  padding-left: 20px;
 }
 
 .footer{ 
@@ -43,5 +67,14 @@ h3{
   color: white;
   padding: 50px;
   font-size: 35px;
+}
+.an{
+color: mediumseagreen ;
+}
+.img{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+
 }
 
