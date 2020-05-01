@@ -4,27 +4,22 @@
 body{
     padding: 0;
     font-family: 'Baloo Bhaina 2', cursive;
-}
-
-header{
     background-image: url(../imagenes/rainbow-flame-ab114-printed-glass-splashback.jpg);
     background-size: cover;
-    height: 700px;
-    font-size: xx-large;
+    background-repeat: no-repeat;
 }
+
 .container p{
     font-family: 'Monoton', cursive;
     color: white;
 }
 
-img{
-    width: 300px;
-    height: 150px;
-}
+
 .footer{ 
     background-color: black;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    margin-top: 400px;
 }
 h3 {
     color: white;
@@ -33,6 +28,7 @@ h3 {
 }
 
 #medio{
+    font-size: xx-large;
     background-color: rgba(102, 101, 101, 0.61);
     display: flex;
     justify-content: space-evenly;
@@ -58,13 +54,18 @@ a{
 
 
 
+@media only screen and (max-width: 320px){ 
+    body{
+        width: 800px;
+        background-position: center;
+    }
 
-//media 
-@media only screen and (max-width: 320px){
+
 #medio{
     flex-direction: column;
 }
 .footer{
+    margin-top: 920px;
     display: inline-flex;
     grid-template-columns: 1fr;
 }
@@ -72,15 +73,18 @@ a{
 }
 
 @media only screen and (max-width:768px){
+    body{
+        width: 800px;
+        background-position: center;
+    }
     #medio{
         flex-direction: column;
+    }
+    .nombre p{
+        color: black;
     }
 }
 
-@media only screen and (max-width:1024px){
-    #medio{
-        flex-direction: column;
-    }
-}
+
 
 
