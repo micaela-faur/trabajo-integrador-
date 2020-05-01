@@ -161,11 +161,11 @@ img{
 @media only screen and (max-width:768px){
     .container{
         flex-direction: column;
-        width: 1470px;
+        width: 1500px;
     }
 
     #tracks{
-        width: 1490px;
+        width: 1500px;
     }
 
     .grid-container{
@@ -188,10 +188,10 @@ img{
     }
     
     .footer{
-        width: 1390px;
+        width: 1500px;
         height: 150px;
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         background-color: black;
     }
     .dezeer{
