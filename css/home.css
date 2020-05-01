@@ -61,3 +61,26 @@ h3{
     padding: 50px;
     font-size: 35px;
 }
+
+@media only screen and (max-width: 320px){
+    header {
+        background-image: none;
+    }
+    .container{
+        flex-direction: column;
+        width: 950px;
+    }
+
+    .filas{
+        margin-left: 590px;
+    }
+
+
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        flex-direction: column;
+        width: 750px;
+    }
+}
