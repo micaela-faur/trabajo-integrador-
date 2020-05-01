@@ -103,7 +103,8 @@ h5{
     color: white;
     font-size: xx-large;
 }
-@media only screen and (max-width: 320px){ 
+@media only screen and (max-width: 320px){
+
     .container{
         flex-direction: column;
         width: 1000px;
@@ -122,6 +123,7 @@ h5{
         height: 550px;
     }
 .footer{
+    margin-top: 920px;
     width: 1000px;
 }
     .dezeer{
