@@ -103,3 +103,69 @@ h5{
     color: white;
     font-size: xx-large;
 }
+@media only screen and (max-width: 320px){ 
+    .container{
+        flex-direction: column;
+        width: 1000px;
+    }
+
+    #tracks{
+        width: 1300px;
+    }
+
+    
+    img{
+        width: 280px;
+        height: 200px;
+    }
+    .grid-column1{
+        height: 550px;
+    }
+.footer{
+    width: 1000px;
+}
+    .dezeer{
+        position: relative;
+        width: 600px;
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        flex-direction: column;
+        width: 1300px;
+
+    }
+
+    #tracks{
+        width: 1300px;
+    }
+
+    .search{
+        margin-left: 380px;
+    }
+
+    img{
+        width: 220px;
+        height: 180px;
+    }
+.grid-container{
+    margin-left: 15px;
+}
+    .grid-column1{
+        height: 450px;
+        width: 300px;
+    }
+    .footer{
+        width: 1300px;
+    }
+    .dezeer{
+        position: relative;
+        width: 600px;
+        height: 300px;
+    }
+
+
+}
