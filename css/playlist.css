@@ -75,3 +75,40 @@ color: mediumseagreen ;
 h4{
   font-size: large;
 }
+
+@media only screen and (max-width: 320px){
+  
+    .container{
+      flex-direction: column;
+      width: 800px;
+    }
+
+    #tracks{
+      width: 800px;
+    }
+
+    .search{
+      margin-left: 330px;
+    }
+
+    .listas{
+      width: 800px;
+    }
+
+    footer{
+      background-color: black;
+      width: 800px;
+      height: 400px;
+    }
+
+} 
+  
+@media only screen and (max-width:768px){
+  .container{
+    flex-direction: column;
+    width: 800px;
+  }
+
+
+
+}

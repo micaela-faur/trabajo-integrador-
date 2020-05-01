@@ -104,21 +104,20 @@ footer h3{
 @media only screen and (max-width: 320px){ 
     .container{
         flex-direction: column;
-        width: 1000px;
+        width: 1200px;
     }
     #artist{
         width: 1000px;
     }
 
-    .search{
-        margin-left: 450px;
-    }
+    
     img{
         width: 280px;
         height: 200px;
     }
-    .artista1{
+    .grid-container{
         height: 550px;
+        margin-left: 10px;
     }
 
     .dezeer{
@@ -148,6 +147,9 @@ footer h3{
         height: 180px;
     }
 
+    .grid-container{
+        padding-left: 60px; ;
+    }
     .grid-column1{
         height: 550px;
         width: 285px;
