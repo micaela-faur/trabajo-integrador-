@@ -81,21 +81,22 @@ a{
 footer{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-top: 30px;
-    height: 300px;
+    margin-top: 70px;
+    height: 400px;
     background-color: black;
 }
 
 h3{
     color: white;
-    padding: 50px;
+    padding: 30px;
     font-size: 35px;
 }
 
 .dezeer{
     position: relative;
-    width: 300px;
-    height: 150px;
+    padding-left: 800px;
+    width: 350px;
+    height: 200px;
 }
 h2{
     color: white;
@@ -109,69 +110,94 @@ img{
 
 @media only screen and (max-width: 320px){ 
     body{
-        background-size: cover;
+        height: 2700px;
     }
-
     .container{
         flex-direction: column;
-        width: 1280px;
+        width: 1390px;
     }
 
     #tracks{
-        width: 1200px;
+        width: 1390px;
     }
 
-    .search{
+    .grid-container{
+        
+        gap: 30px;
         margin-left: 50px;
     }
-    img{
-        width: 280px;
-        height: 200px;
-    }
-    .artista1{
-        height: 550px;
+    .search{
+        margin-left: 380px;
     }
 
+    img{
+        width: 200px;
+        height: 170px;
+    }
+
+    .grid-column1{
+        height: 250px;
+        width: 250px;
+    }
+    
+    footer{
+        background: none;
+        margin-top: 1200px;
+        width: 1390px;
+        height: 150px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
     .dezeer{
         position: relative;
-        width: 800px;
-        height: 500px;
+        width: 300px;
+        height: 200px;
+        padding-left: 0px;
     }
 
-    .footer{
-        height: 800px;
-    }
 
 }
 
 @media only screen and (max-width:768px){
     .container{
         flex-direction: column;
-        width: 1250px;
+        width: 1470px;
     }
 
     #tracks{
-        width: 1300px;
+        width: 1490px;
     }
 
+    .grid-container{
+        margin-bottom: 80px;
+        gap: 30px;
+        margin-left: 50px;
+    }
     .search{
         margin-left: 380px;
     }
 
     img{
-        width: 220px;
-        height: 180px;
+        width: 200px;
+        height: 170px;
     }
 
     .grid-column1{
-        height: 550px;
-        width: 285px;
+        height: 250px;
+        width: 250px;
     }
     
+    .footer{
+        width: 1390px;
+        height: 150px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        background-color: black;
+    }
     .dezeer{
         position: relative;
-        width: 600px;
-        height: 300px;
+        width: 440px;
+        height: 200px;
     }
 
 
