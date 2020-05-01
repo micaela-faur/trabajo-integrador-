@@ -51,9 +51,7 @@ body{
 .artistas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 20px;
-    gap: 25px;
-    background-color: rgba(126, 124, 124, 0.233);
+    margin-top: 100px;
 }
 .artista1{
     display: flex;
@@ -64,6 +62,8 @@ body{
     align-items: center;
     color: white;
     font-size: 20px;
+    margin-left: 20px;
+    background-color: rgba(75, 74, 74, 0.411);
 }
 
 img{
@@ -84,62 +84,64 @@ footer h3{
     font-size: 35px;
 }
 
-@media only screen and (max-width: 320px){
-    .artistas{
-    grid-template-columns: 1fr;
-       margin-left: 50%;
-    }
+@media only screen and (max-width: 320px){ 
     .container{
         flex-direction: column;
-    }
-    .footer{
-        display: inline-flex;
-    }
-    .container{
-        width: 600px;
+        width: 1000px;
     }
     #artist{
-        width: 600px;
+        width: 1000px;
     }
+
     .search{
-        margin-left: 225px;
+        margin-left: 450px;
     }
-    .artistas{
-        width: 350px;
+    img{
+        width: 280px;
+        height: 200px;
+    }
+    .artista1{
+        height: 550px;
+    }
+
+    footer img{
+        padding-top: 20px;
+    width: 600px;
+    height: 400px;
+
     }
 }
 
 @media only screen and (max-width:768px){
-    .artistas{
-        grid-template-columns: 1fr;
-        margin-left: 250px;
-        width: 350px;
-    }
-    .artista1{
-        padding-top: 30px;
-    }
     .container{
         flex-direction: column;
+        width: 1000px;
     }
-    .footer{
-        display: inline-flex;
-    }
-    .container{
-        width: 800px;
-    }
+
     #artist{
-        width: 800px;
+        width: 1000px;
     }
+
     .search{
-        margin-left: 110px;
+        margin-left: 300px;
     }
+
+    img{
+        width: 220px;
+        height: 180px;
+    }
+
+    .artista1{
+        height: 550px;
+        width: 285px;
+    }
+    footer img{
+        padding-top: 20px;
+    width: 600px;
+    height: 400px;
+
+    }
+
+
 }
 
-@media only screen and (max-width:1024px){
-    img{
-        padding-top: 20px;
-        width: 150px;
-        height: 100px;
-    }
-    
-}

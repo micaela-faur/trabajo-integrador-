@@ -46,7 +46,7 @@ body{
 }
 
 .grid-container{
-    display: grid;
+   display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    margin-top: 100px;
 }
@@ -101,19 +101,30 @@ footer h3{
 }
 
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px){ 
     .container{
         flex-direction: column;
+        width: 1000px;
+    }
+    #artist{
+        width: 1000px;
     }
 
-    .grid-container{
-        display: grid;
-        grid-template-columns: 1fr;
+    .search{
+        margin-left: 450px;
+    }
+    img{
+        width: 280px;
+        height: 200px;
+    }
+    .artista1{
+        height: 550px;
     }
 
-    .grid-column1{
-        padding-top: 15px;
-        height: 500px;
+    .dezeer{
+        position: relative;
+        width: 600px;
+        height: 300px;
     }
 
 }
@@ -121,67 +132,32 @@ footer h3{
 @media only screen and (max-width:768px){
     .container{
         flex-direction: column;
-        width: 440px;
+        width: 1100px;
     }
 
-    .grid-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        
+    #tracks{
+        width: 1100px;
+    }
+
+    .search{
+        margin-left: 380px;
+    }
+
+    img{
+        width: 220px;
+        height: 180px;
     }
 
     .grid-column1{
-        padding-top: 15px;
-        height: 500px;
+        height: 550px;
+        width: 285px;
     }
-
-    #tracks{
-        width: 440px;
-    }
-
-    .search{
-        margin-left: 0px;
-    }
-}
-   
-
-@media only screen and (max-width:1024px){
-    .container{
-        flex-direction: column;
-        width: 440px;
-    }
-
-    .grid-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-left: 20px;
-        
-    }
-
-    .grid-column1{
-        padding-top: 5px;
-        height: 600px;
-        width: 500px;
-    }
-
-    #tracks{
-        width: 440px;
-    }
-
-    .search{
-        margin-left: 0px;
-    }
-
-    .container{
+    
+    .dezeer{
+        position: relative;
         width: 600px;
+        height: 300px;
     }
-    #tracks{
-        width: 600px;
-    }
-    .search{
-        margin-right: 340px;
-    }
-    footer h3{
-        font-size: x-large;
-    }
+
+
 }

@@ -2,11 +2,12 @@
     margin: 0px;
 }
 body{
-    background-image: url(../imagenes/nnn.jpg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
     font-size: xx-large;
+    background-image: url(../imagenes/neon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     font-family: 'Baloo Bhaina 2', cursive;
 }
 
@@ -44,28 +45,27 @@ h2{
     font-size: 50px;
 }
 
-
 .grid-container{
     display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    margin-top: 100px;
-   height: 200px;
+
 }
 
 .grid-column1{
     display: flex;
     flex-direction: column;
-    height: 210px;
+    justify-content: center;
+    height: 300px;
     margin-right: 20px;
-    margin-left: 20px;
     background-color: rgba(75, 74, 74, 0.411);
     align-items: center;
 }
 
 img{
     width: 200px;
+    height: 120px;
 }
-
 .grid-container a{
     text-decoration: none;
     color: white;
@@ -73,19 +73,12 @@ img{
 }
 
 
-a{
-    color: white;
-    text-decoration: none;
-}
-
-footer{
+.footer{ 
+    background-color: black;
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-top: 30px;
-    height: 300px;
-    background-color: black;
 }
-
 h3{
     color: white;
     padding: 50px;
@@ -101,78 +94,12 @@ h2{
     color: white;
     font-family: 'Baloo Bhaina 2;
 }
-img{
-    height: 140px;
-    width: 160px;
-    padding: 10px;
+h4{
+    color: white;
+    font-size: smaller;
+    text-align: center;
 }
-
-@media only screen and (max-width: 320px){ 
-    body{
-        background-size: cover;
-    }
-
-    .container{
-        flex-direction: column;
-        width: 1280px;
-    }
-
-    #tracks{
-        width: 1200px;
-    }
-
-    .search{
-        margin-left: 50px;
-    }
-    img{
-        width: 280px;
-        height: 200px;
-    }
-    .artista1{
-        height: 550px;
-    }
-
-    .dezeer{
-        position: relative;
-        width: 800px;
-        height: 500px;
-    }
-
-    .footer{
-        height: 800px;
-    }
-
-}
-
-@media only screen and (max-width:768px){
-    .container{
-        flex-direction: column;
-        width: 1250px;
-    }
-
-    #tracks{
-        width: 1300px;
-    }
-
-    .search{
-        margin-left: 380px;
-    }
-
-    img{
-        width: 220px;
-        height: 180px;
-    }
-
-    .grid-column1{
-        height: 550px;
-        width: 285px;
-    }
-    
-    .dezeer{
-        position: relative;
-        width: 600px;
-        height: 300px;
-    }
-
-
+h5{
+    color: white;
+    font-size: xx-large;
 }
