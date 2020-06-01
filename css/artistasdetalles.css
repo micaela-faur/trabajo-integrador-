@@ -1,105 +1,15 @@
 *{
     margin: 0px;
 }
+
 body{
-    text-align: center;
-    font-size: xx-large;
-    background-image: url(../imagenes/neon.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    font-family: 'Baloo Bhaina 2', cursive;
+    background-color: rgb(0, 0, 0);
 }
 
-.container{
-    background-color: rgba(102, 101, 101, 0.61);
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 15px;
-    font-size: xx-large;
-}
-
-.nombre{
-    font-size: xx-large;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: 'Monoton', cursive;
-    padding: 10px;
-}
-.container a{
-    color: white;
-    padding-top: 50%;
-    text-decoration: none;
-}
-
-#tracks{
-   background-color: rgba(255, 255, 255, 0.137);
-   margin-top: 100px;
-   height: 70px;
-}
-h2{
-    color: white; 
-    font-size: 50px;
-}
-
-.grid-container{
-    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin-top: 100px;
+.artista{
+    background-color: rgba(240, 229, 229, 0.493) ;
+    margin: 20% 10% 20% 10%;
+    border: 2px solid white;
 
 }
 
-.grid-column1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 300px;
-    margin-right: 20px;
-    background-color: rgba(75, 74, 74, 0.411);
-    align-items: center;
-}
-
-img{
-    width: 200px;
-    height: 120px;
-}
-.grid-container a{
-    text-decoration: none;
-    color: white;
-    padding-bottom: 0;
-}
-
-
-.footer{ 
-    background-color: black;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-top: 30px;
-}
-h3{
-    color: white;
-    padding: 50px;
-    font-size: 35px;
-}
-
-.dezeer{
-    position: relative;
-    width: 300px;
-    height: 150px;
-}
-h2{
-    color: white;
-    font-family: 'Baloo Bhaina 2;
-}
-h4{
-    color: white;
-    font-size: smaller;
-    text-align: center;
-}
-h5{
-    color: white;
-    font-size: xx-large;
-}

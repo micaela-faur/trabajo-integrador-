@@ -50,6 +50,15 @@ body{
   text-align: center;
   
 }
+
+.canciones a{
+color: mediumseagreen ;
+}
+
+}
+h4{
+  font-size: large;
+}
 .canciones{
   margin: 20px 10px 20px 10px ;
   color: white;
@@ -61,20 +70,20 @@ body{
   background-color: black;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  margin-top: 30px;
 }
-h3{
+footer h3{
   color: white;
   padding: 50px;
   font-size: 35px;
 }
-.canciones a{
-color: mediumseagreen ;
+
+.dezeer{
+  position: relative;
+  width: 300px;
 }
 
-}
-h4{
-  font-size: large;
-}
+
 
 @media only screen and (max-width: 320px){
   

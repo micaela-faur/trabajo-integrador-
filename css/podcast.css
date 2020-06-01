@@ -2,9 +2,10 @@
     margin: 0px;
 }
 body{
-    background-image: url(../imagenes/nnn.jpg.png);
+    background-image: url(../imagenes/ipadrojo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     font-size: xx-large;
     font-family: 'Baloo Bhaina 2', cursive;
@@ -34,7 +35,7 @@ body{
     text-decoration: none;
 }
 
-#tracks{
+#podcast{
    background-color: rgba(255, 255, 255, 0.137);
    margin-top: 100px;
    height: 70px;
@@ -47,23 +48,26 @@ h2{
 
 .grid-container{
     display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   margin-top: 100px;
-   height: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
 }
 
 .grid-column1{
     display: flex;
     flex-direction: column;
-    height: 210px;
+    justify-content: center;
+    height: 400px;
     margin-right: 20px;
     margin-left: 20px;
-    background-color: rgba(75, 74, 74, 0.411);
     align-items: center;
+    color: white;
+    font-size: 20px;
 }
 
 img{
-    width: 200px;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
 }
 
 .grid-container a{
@@ -78,127 +82,61 @@ a{
     text-decoration: none;
 }
 
-footer{
+.footer{ 
+    background-color: black;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin-top: 70px;
-    height: 400px;
-    background-color: black;
+    margin-top: 30px;
 }
-
-h3{
+footer h3{
     color: white;
-    padding: 30px;
+    padding: 50px;
     font-size: 35px;
 }
 
 .dezeer{
     position: relative;
-    padding-left: 800px;
-    width: 350px;
-    height: 200px;
-}
-h2{
-    color: white;
-    font-family: 'Baloo Bhaina 2;
-}
-img{
-    height: 140px;
-    width: 160px;
-    padding: 10px;
+    width: 300px;
 }
 
-@media only screen and (max-width: 320px){ 
-    body{
-        height: 2700px;
-    }
+
+@media (max-width:768px){
     .container{
         flex-direction: column;
-        width: 1390px;
-    }
-
-    #tracks{
-        width: 1390px;
     }
 
     .grid-container{
-        
-        gap: 30px;
-        margin-left: 50px;
-    }
-    .search{
-        margin-left: 380px;
-    }
-
-    img{
-        width: 200px;
-        height: 170px;
-    }
-
-    .grid-column1{
-        height: 250px;
-        width: 250px;
-    }
-    
-    footer{
-        background: none;
-        margin-top: 1200px;
-        width: 1390px;
-        height: 150px;
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    .dezeer{
-        position: relative;
-        width: 300px;
-        height: 200px;
-        padding-left: 0px;
-    }
-
-
-}
-
-@media only screen and (max-width:768px){
-    .container{
-        flex-direction: column;
-        width: 1500px;
-    }
-
-    #tracks{
-        width: 1500px;
-    }
-
-    .grid-container{
-        margin-bottom: 80px;
-        gap: 30px;
-        margin-left: 50px;
-    }
-    .search{
-        margin-left: 380px;
-    }
-
-    img{
-        width: 200px;
-        height: 170px;
-    }
-
-    .grid-column1{
-        height: 250px;
-        width: 250px;
-    }
-    
-    .footer{
-        width: 1500px;
-        height: 150px;
-        display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    img{
+        width: 220px;
+        height: 180px;
+    }
+
+}
+
+@media (max-width: 420px){ 
+    .container{
+        flex-direction: column;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+    img{
+        width: 220px;
+        height: 180px;
+    }
+
+    .footer{
+        grid-template-columns:1fr;
+    }
+
+    body{
+        background-image: none;
         background-color: black;
     }
-    .dezeer{
-        position: relative;
-        width: 440px;
-        height: 200px;
-    }
-
 
 }

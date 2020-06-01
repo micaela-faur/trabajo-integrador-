@@ -46,7 +46,7 @@ h2{
 }
 
 .grid-container{
-    display: grid;
+   display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    margin-top: 100px;
 
@@ -56,10 +56,13 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     margin-right: 20px;
+    margin-left: 20px;
     background-color: rgba(75, 74, 74, 0.411);
     align-items: center;
+    color: white;
+    font-size: 20px;
 }
 
 img{
@@ -103,70 +106,42 @@ h5{
     color: white;
     font-size: xx-large;
 }
-@media only screen and (max-width: 320px){
 
+
+@media (max-width:768px){
     .container{
         flex-direction: column;
-        width: 1000px;
     }
 
-    #tracks{
-        width: 1300px;
-    }
-
-    
-    img{
-        width: 280px;
-        height: 200px;
-    }
-    .grid-column1{
-        height: 550px;
-    }
-.footer{
-    margin-top: 920px;
-    width: 1000px;
-}
-    .dezeer{
-        position: relative;
-        width: 600px;
-        height: 300px;
-    }
-
-}
-
-@media only screen and (max-width:768px){
-    .container{
-        flex-direction: column;
-        width: 1300px;
-
-    }
-
-    #tracks{
-        width: 1300px;
-    }
-
-    .search{
-        margin-left: 380px;
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
     }
 
     img{
         width: 220px;
         height: 180px;
     }
-.grid-container{
-    margin-left: 15px;
+
+
 }
-    .grid-column1{
-        height: 450px;
-        width: 300px;
+
+@media (max-width: 420px){
+
+    .container{
+        flex-direction: column;
     }
+
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+    img{
+        width: 220px;
+        height: 180px;
+    }
+
     .footer{
-        width: 1300px;
-    }
-    .dezeer{
-        position: relative;
-        width: 600px;
-        height: 300px;
+        grid-template-columns:1fr;
     }
 
 

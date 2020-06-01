@@ -1,7 +1,6 @@
 *{
     margin: 0px;
 }
-
 body{
     background-color: black;
     font-size: xx-large;
@@ -52,35 +51,56 @@ a{
 
 .footer{ 
     background-color: black;
-    margin-top: 30px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    margin-top: 30px;
 }
-h3{
+footer h3{
     color: white;
     padding: 50px;
     font-size: 35px;
 }
 
-@media only screen and (max-width: 320px){
+.dezeer{
+    position: relative;
+    width: 300px;
+}
+h2{
+    color: white;
+    font-family: 'Baloo Bhaina 2;
+}
+
+#titulo{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+
+    header{
+        background-image: none;
+    }
+
+}
+
+@media (max-width: 420px){
     header {
         background-image: none;
     }
     .container{
         flex-direction: column;
-        width: 950px;
     }
 
     .filas{
-        margin-left: 590px;
+        padding: 10px 40px 10px 40px;
     }
 
-
-}
-
-@media only screen and (max-width:768px){
-    .container{
-        flex-direction: column;
-        width: 750px;
+    .footer{
+        grid-template-columns:1fr;
     }
+
 }
