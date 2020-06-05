@@ -42,29 +42,25 @@ body{
   text-decoration: none;
 }
 
+.column{
+  margin-bottom: 50px;
+}
 
 .listas{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
   text-decoration: none;
   text-transform: uppercase;
-  margin: 5px 5px 5px 5px;
   text-align: center;
+  margin: 100px 5px 50px 5px;
   
 }
 
-.canciones a{
-color: mediumseagreen ;
+.canciones{
+color: rgb(255, 255, 255) ;
 }
 
-}
-h4{
-  font-size: large;
-}
-.canciones{
-  margin: 20px 10px 20px 10px ;
-  color: white;
-  background-color: rgba(112, 112, 112, 0.062);
-  padding-left: 20px;
-}
 
 .footer{ 
   background-color: black;
