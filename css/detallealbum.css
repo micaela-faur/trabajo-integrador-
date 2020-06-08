@@ -35,6 +35,30 @@ body{
 }
 a{
     color: white;
-    padding-top: 50%;
+    
     text-decoration: none;
+}
+.album{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    text-align: center;
+
+
+
+
+
+
+
+}
+
+.imagencover{
+
+width: 50%;
+margin-left: 25%;
+border-radius: 20px;
+
+
+
+
 }

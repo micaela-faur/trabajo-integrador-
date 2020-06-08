@@ -6,7 +6,7 @@ fetch(` https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/album
         let album = datos.data;
             album.forEach(function(dataAlbum){
             let contenedor = document.querySelector(`.grid-container`);
-            contenedor.innerHTML +=  `  <a href="detallealbum.html" class="text-decoration">
+            contenedor.innerHTML +=  `  <a href="detallealbum.html?id=${dataAlbum.id}" class="text-decoration">
                                         <div class= "grid-column1">
                                         <img  src=" ${dataAlbum.cover_medium}" alt="" >
                                         <h3> ${dataAlbum.title} </h3>
