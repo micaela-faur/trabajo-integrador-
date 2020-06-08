@@ -1,14 +1,19 @@
+*{
+    margin: 0px;
+}
 body{
     background-image: url(../imagenes/trackdetalle.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
 
 .contenedor{
-    background-color: rgba(3, 3, 3, 0.479);
+    background-color: rgba(240, 229, 229, 0.493) ;
     margin: 20% 20% 20% 20%;
     color: white;
-    text-align: center;
+    border: 2px solid white;
+    padding-left: 20%;
 }
 
 #nombre-artista{
@@ -21,6 +26,28 @@ body{
     border-radius: 5px;
     background-color: white;
     text-decoration: none;
-    padding: 5px;
-    margin: 5% 40% 5% 40%;
+    
+}
+
+.container{
+    background-color: rgba(102, 101, 101, 0.61);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.nombre{
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Monoton', cursive;
+    padding: 10px;
+}
+a{
+    color: white;
+    padding-top: 50%;
+    text-decoration: none;
 }

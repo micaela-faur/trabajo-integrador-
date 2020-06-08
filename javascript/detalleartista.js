@@ -15,9 +15,11 @@ fetch(` https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/`+ art
             let nombre = document.querySelector(`#nombre`);
             nombre.innerHTML = detalleArtista.name   
 
-            let seguidores = document.querySelector(`#seguidores`);
-            seguidores.innerHTML = detalleArtista.fans  
- 
+            let imagenArtista = document.querySelector(`#imagen-artist`);
+            imagenArtista.src = detalleArtista.picture_medium 
+
+            //let seguidores = document.querySelector(`#seguidores`);
+            //seguidores.innerHTML = detalleArtista.fans.data.total
                                         
             
     })

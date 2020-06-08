@@ -6,10 +6,35 @@ body{
     background-image: url(../imagenes/trackdetalle.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
 
-.artista{
+.album{
     background-color: rgba(240, 229, 229, 0.493) ;
     margin: 20% 10% 20% 10%;
     border: 2px solid white;
+}
+
+.container{
+    background-color: rgba(102, 101, 101, 0.61);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    font-size: xx-large;
+}
+
+.nombre{
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Monoton', cursive;
+    padding: 10px;
+}
+a{
+    color: white;
+    padding-top: 50%;
+    text-decoration: none;
 }
