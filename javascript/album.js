@@ -9,8 +9,8 @@ fetch(` https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/album
             contenedor.innerHTML +=  `  <a href="detallealbum.html?id=${dataAlbum.id}" class="text-decoration">
                                         <div class= "grid-column1">
                                         <img  src=" ${dataAlbum.cover_medium}" alt="" >
-                                        <h3> ${dataAlbum.title} </h3>
-                                        <h5> ${dataAlbum.artist.name} </h5> 
+                                        <h3 class="letra-title"> ${dataAlbum.title} </h3>
+                                        <h5 class="letra-artist"> ${dataAlbum.artist.name} </h5> 
                                         </div>
                                         </a>`
             })

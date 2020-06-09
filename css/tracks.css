@@ -100,8 +100,20 @@ grid-column1 h4{
 }
 
 .form-control{
-    padding: 100px;
+    padding: 10px;
 }
+
+.letra-title{
+    font-size: x-large;
+}
+
+.letra-artist{
+    font-size: larger;
+}
+
+
+
+
 
 @media (max-width:768px){
     .container{

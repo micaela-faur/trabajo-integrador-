@@ -16,11 +16,10 @@ fetch(' https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/'+album
      let contenedoralbum=document.querySelector('.album')
 
      contenedoralbum.innerHTML=`
-     
-     <img  class="imagencover"      src="${album.cover_xl}" alt="">
-     <h2 id="nombre-album" > ${album.title}  </h2>
-     <a href="artistasdetalles.html?id=${album.artist.id}"> <h3>${album.artist.name}</h3>   </a>
-     <h4 id="fecha-salida">${album.release_date}</h4>
+                                    <img  class="imagencover" src="${album.cover_xl}" alt="">
+                                    <h2 id="nombre-album" > ${album.title}  </h2>
+                                    <a class="link" href="artistasdetalles.html?id=${album.artist.id}"> <h3>${album.artist.name}</h3>   </a>
+                                    <h4 id="fecha-salida">${album.release_date}</h4>
      
      `
                                         

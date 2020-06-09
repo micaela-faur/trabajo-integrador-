@@ -9,8 +9,8 @@ fetch(` https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/track
             contenedor.innerHTML +=  ` <a href="detalletracks.html?id=${dataTracks.id}"> 
                                         <div class= "grid-column1">
                                         <img  src=" ${dataTracks.artist.picture_medium}" alt="" >
-                                        <h5> ${dataTracks.title} </h5>
-                                        <h4> ${dataTracks.artist.name} </h4> 
+                                        <h3 class="letra-title"> ${dataTracks.title} </h3>
+                                        <h5 class="letra-artist"> ${dataTracks.artist.name} </h5> 
                                         </div>
                                         </a>
                                          `

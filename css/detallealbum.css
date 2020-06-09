@@ -9,12 +9,6 @@ body{
     font-family: 'Baloo Bhaina 2', cursive;
 }
 
-.album{
-    background-color: rgba(240, 229, 229, 0.493) ;
-    margin: 20% 10% 20% 10%;
-    border: 2px solid white;
-}
-
 .container{
     background-color: rgba(102, 101, 101, 0.61);
     display: flex;
@@ -33,32 +27,32 @@ body{
     font-family: 'Monoton', cursive;
     padding: 10px;
 }
-a{
+.head{
     color: white;
-    
     text-decoration: none;
 }
 .album{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
     text-align: center;
-
-
-
-
-
-
-
 }
 
 .imagencover{
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+    margin: 10% 40% 2% 40%;
+}
 
-width: 50%;
-margin-left: 25%;
-border-radius: 20px;
+#nombre-album{
+    color: white;
+    font-size: 240%;
+}
 
+.link{
+    color: white;
+    font-size: 135%;
+}
 
-
-
+#fecha-salida{
+    color: white;
+    font-size: 100%;
 }
