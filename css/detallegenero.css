@@ -31,31 +31,6 @@ body{
     color: white;
     text-decoration: none;
 }
-.album{
-    text-align: center;
-}
-
-.imagencover{
-    width: 20%;
-    height: 20%;
-    border-radius: 20px;
-    margin: 10% 40% 2% 40%;
-}
-
-#nombre-album{
-    color: white;
-    font-size: 240%;
-}
-
-.link{
-    color: white;
-    font-size: 135%;
-}
-
-#fecha-salida{
-    color: white;
-    font-size: 100%;
-}
 
 .footer{ 
     background-color: black;
@@ -72,29 +47,4 @@ footer h3{
 .dezeer{
     position: relative;
     width: 300px;
-}
-
-@media (max-width:768px){
-    .container{
-        flex-direction: column;
-    }
-
-    .dezeer{
-        position: relative;
-    }
-
-}
-
-@media (max-width: 420px){
-    .container{
-        flex-direction: column;
-    }
-
-    .dezeer{
-        position: relative;
-    }
-
-    .footer{
-        grid-template-columns:1fr;
-    }
 }

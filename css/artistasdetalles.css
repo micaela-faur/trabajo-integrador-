@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Baloo Bhaina 2', cursive;
+    align-items: center;
 }
 
 .album{
@@ -15,21 +16,14 @@ body{
     border: 2px solid white;
 }
 
-.artista{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color: rgba(240, 229, 229, 0.493) ;
-    margin: 20% 20% 20% 20%;
+.contenedor{
+    margin: 7%;
     color: white;
-    border: 2px solid white;
-}
-
-.informacion{
     text-align: center;
 }
 
 #seguidores{
-    padding: 15%;
+    padding: 5%;
 }
 
 .container{
@@ -52,6 +46,43 @@ body{
 }
 a{
     color: white;
-    padding-top: 50%;
     text-decoration: none;
+}
+
+.footer{ 
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 30px;
+}
+footer h3{
+    color: white;
+    padding: 50px;
+    font-size: 35px;
+}
+
+.dezeer{
+    position: relative;
+    width: 300px;
+}
+
+#imagen-artist{
+    border-radius: 20px;
+}
+
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 420px){
+    .container{
+        flex-direction: column;
+    }
+
+    .footer{
+        grid-template-columns:1fr;
+    }
 }

@@ -4,11 +4,12 @@
 body{
     text-align: center;
     font-size: xx-large;
-    background-image: url(../imagenes/neon.jpg);
+    background-image: url(../imagenes/ipadrojo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-family: 'Baloo Bhaina 2', cursive;
+    align-items: center;
 }
 
 .container{
@@ -35,11 +36,18 @@ body{
     text-decoration: none;
 }
 
-#tracks{
-   background-color: rgba(255, 255, 255, 0.137);
+#generos{
+   background-color: rgba(255, 255, 255, 0.24);
    margin-top: 100px;
-   height: 70px;
 }
+
+.form-control{
+    padding: 7px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: lightgrey solid 3px;
+}
+
 h2{
     color: white; 
     font-size: 50px;
@@ -47,8 +55,9 @@ h2{
 
 .grid-container{
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
    margin-top: 100px;
+   gap: 90px;
 
 }
 
@@ -57,19 +66,21 @@ h2{
     flex-direction: column;
     justify-content: center;
     background-color: rgba(75, 74, 74, 0.411);
-    align-items: center;
     color: white;
     font-size: 20px;
 }
 
-img{
-    width: 300px;
-    height: 220px;
-}
+
 .grid-container a{
     text-decoration: none;
     color: white;
     padding-bottom: 0;
+}
+
+.imagen-genero{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
 }
 
 
@@ -114,9 +125,9 @@ h5{
         grid-template-columns: 1fr 1fr;
     }
 
-    img{
-        width: 220px;
-        height: 180px;
+    .imagen-genero{
+        width: 250px;
+        height: 250px;
     }
 
 
@@ -132,9 +143,9 @@ h5{
         grid-template-columns: 1fr;
     }
 
-    img{
-        width: 220px;
-        height: 180px;
+    .imagen-genero{
+        width: 250px;
+        height: 250px;
     }
 
     .footer{

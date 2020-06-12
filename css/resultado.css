@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-image: url(../imagenes/trackdetalle.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Baloo Bhaina 2', cursive;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(102, 101, 101, 0.61);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    font-size: xx-large;
+}
+
+.nombre{
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Monoton', cursive;
+    padding: 10px;
+}
+.container a{
+    color: white;
+    padding-top: 50%;
+    text-decoration: none;
+}
+
+.resultado{
+    background-color: rgba(255, 255, 255, 0.24);
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.resultado h2{
+    color: white; 
+    font-size: 50px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 90px;
+}
+
+.cancion-title{
+    color: white;
+    font-size: x-large;
+}

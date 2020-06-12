@@ -27,14 +27,20 @@ body{
   padding: 10px;
 }
 
-#tracks{
-  background-color: rgba(255, 255, 255, 0.137);
+#playlist{
+  background-color: rgba(255, 255, 255, 0.24);
   margin-top: 100px;
-  height: 70px;
 }
-#tracks h2{
+#playlist h2{
    color: white; 
    font-size: 50px;
+}
+
+.form-control{
+  padding: 7px;
+  width: 200px;
+  margin-bottom: 20px;
+  border: lightgrey solid 3px;
 }
 .container a{
   color: white;
@@ -80,44 +86,31 @@ footer h3{
 }
 
 
-
-@media only screen and (max-width: 320px){
-  
-    .container{
-      flex-direction: column;
-      width: 800px;
-    }
-
-    #tracks{
-      width: 800px;
-    }
-
-    .search{
-      margin-left: 330px;
-    }
-
-    .listas{
-      width: 800px;
-    }
-
-    footer{
-      background-color: black;
-      width: 800px;
-      height: 400px;
-    }
-
-} 
-  
-@media only screen and (max-width:768px){
+@media (max-width:768px){
   .container{
-    flex-direction: column;
-    width: 800px;
+      flex-direction: column;
   }
 
-#tracks{
-  width: 800px;
+  .listas{
+  grid-template-columns: 1fr;
 }
-.footer{
-  width: 800px;
+
+
 }
+
+
+@media (max-width: 420px){
+  .container{
+    flex-direction: column;
+  }
+
+  .listas{
+    grid-template-columns: 1fr;
+  }
+
+  .footer{
+    grid-template-columns:1fr;
+  }
+
+
 }

@@ -18,8 +18,8 @@ fetch(` https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/`+ art
             let imagenArtista = document.querySelector(`#imagen-artist`);
             imagenArtista.src = detalleArtista.picture_medium 
 
-            //let seguidores = document.querySelector(`#seguidores`);
-            //seguidores.innerHTML = detalleArtista.fans.data.
+            let seguidores = document.querySelector(`#seguidores`);
+            seguidores.innerHTML = "Segudiores:  " + detalleArtista.nb_fan 
                                         
             
     })
@@ -27,4 +27,28 @@ fetch(` https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/`+ art
         console.error(error);
     })
         
-    
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+ artistaID + "/top")
+
+    .then(function(respuesta){
+        return respuesta.json();
+    })
+
+    .then(function(datos){
+        let detalleArtista = datos.data;
+        console.log(detalleArtista)
+
+        for (const artistas of detalleArtista) {
+            let top5 = document.querySelector("#top5")
+            top5.innerHTML += ` <div>  
+                                    <h4> ${detalleArtista.title} </h4>
+                                </div> `
+        }
+            
+
+    })
+
+    .catch(function(error){
+        console.error(error);
+    })
+
+

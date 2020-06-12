@@ -100,7 +100,10 @@ grid-column1 h4{
 }
 
 .form-control{
-    padding: 10px;
+    padding: 7px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: lightgrey solid 3px;
 }
 
 .letra-title{

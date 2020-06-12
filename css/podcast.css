@@ -38,17 +38,22 @@ body{
 #podcast{
    background-color: rgba(255, 255, 255, 0.137);
    margin-top: 100px;
-   height: 70px;
 }
 h2{
     color: white; 
     font-size: 50px;
 }
+.form-control{
+    padding: 7px;
+    width: 200px;
+    margin-bottom: 20px;
+    border: lightgrey solid 3px;
+}
 
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 100px;
 }
 
