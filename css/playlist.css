@@ -48,19 +48,15 @@ body{
   text-decoration: none;
 }
 
-.column{
-  margin-bottom: 50px;
-}
 
 .listas{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 90px;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   margin: 100px 5px 50px 5px;
-  
 }
 
 .canciones{
@@ -80,10 +76,7 @@ footer h3{
   font-size: 35px;
 }
 
-.dezeer{
-  position: relative;
-  width: 300px;
-}
+
 
 
 @media (max-width:768px){

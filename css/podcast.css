@@ -23,7 +23,6 @@ body{
 }
 
 .nombre{
-    font-size: xx-large;
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Monoton', cursive;
@@ -55,21 +54,19 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 100px;
+    gap: 90px;
 }
 
 .grid-column1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 400px;
-    margin-right: 20px;
-    margin-left: 20px;
     align-items: center;
     color: white;
     font-size: 20px;
 }
 
-img{
+.grid-container img{
     height: 250px;
     width: 250px;
     border-radius: 100%;
@@ -78,7 +75,6 @@ img{
 .grid-container a{
     text-decoration: none;
     color: white;
-    padding-bottom: 0;
 }
 
 
@@ -99,10 +95,7 @@ footer h3{
     font-size: 35px;
 }
 
-.dezeer{
-    position: relative;
-    width: 300px;
-}
+
 
 
 @media (max-width:768px){

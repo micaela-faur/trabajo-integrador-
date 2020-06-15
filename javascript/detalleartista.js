@@ -51,4 +51,4 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+ arti
         console.error(error);
     })
 
-
+    

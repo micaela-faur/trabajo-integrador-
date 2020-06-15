@@ -8,6 +8,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    align-items: center;
     font-family: 'Baloo Bhaina 2', cursive;
 }
 
@@ -29,6 +30,7 @@ body{
     font-family: 'Monoton', cursive;
     padding: 10px;
 }
+
 .container a{
     color: white;
     padding-top: 50%;
