@@ -35,7 +35,6 @@ body{
     justify-content: space-evenly;
     color: white;
     flex-direction: row;
-    align-items: center;
     font-size: xx-large;
 }
 
@@ -62,11 +61,6 @@ footer h3{
     color: white;
     padding: 50px;
     font-size: 35px;
-}
-
-.dezeer{
-    position: relative;
-    width: 300px;
 }
 
 

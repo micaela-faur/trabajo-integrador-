@@ -37,10 +37,10 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/"+ arti
         let detalleArtista = datos.data;
         console.log(detalleArtista)
 
-        for (const artistas of detalleArtista) {
+        for (const artista of detalleArtista) {
             let top5 = document.querySelector("#top5")
             top5.innerHTML += ` <div>  
-                                    <h4> ${detalleArtista.title} </h4>
+                                    <h4> ${artista.title} </h4>
                                 </div> `
         }
             
