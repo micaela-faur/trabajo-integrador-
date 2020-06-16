@@ -16,10 +16,15 @@ body{
     margin: 7%;
     color: white;
     text-align: center;
+    font-size: x-large;
 }
 
 #seguidores{
-    padding: 5%;
+    padding: 3%;
+    font-size: x-large;
+}
+#top5{
+    font-size: x-large;
 }
 
 .container{
@@ -78,4 +83,7 @@ footer h3{
     .footer{
         grid-template-columns:1fr;
     }
+}
+.dezeer{
+    width: 400px;
 }

@@ -2,7 +2,10 @@
     margin: 0px;
 }
 body{
-    background-color: black;
+    background-image: url(../imagenes/gradient-hd_wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-size: xx-large;
     font-family: 'Baloo Bhaina 2', cursive;
 }
@@ -19,7 +22,7 @@ body{
 
 
 article{
-    background-color: rgba(248, 170, 200, 0.322);
+    background-color: rgba(7, 7, 7, 0.26);
 }
 
 .nombre{
@@ -52,13 +55,16 @@ a{
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-top: 30px;
+    
 }
 footer h3{
     color: white;
     padding: 50px;
     font-size: 35px;
 }
-
+.deezer{
+    width: 400px;
+}
 
 #titulo{
     color: white;
@@ -71,14 +77,14 @@ footer h3{
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
-/* Slideshow container */
+
 .slideshow-container {
   max-width: 500px;
   position: relative;
   margin: auto;
 }
 
-/* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -104,16 +110,11 @@ img {vertical-align: middle;}
         flex-direction: column;
     }
 
-    header{
-        background-image: none;
-    }
-
+    
 }
 
 @media (max-width: 420px){
-    header {
-        background-image: none;
-    }
+   
     .container{
         flex-direction: column;
     }

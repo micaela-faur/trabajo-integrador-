@@ -96,7 +96,9 @@ footer h3{
 }
 
 
-
+.dezeer{
+    width: 400px;
+}
 
 @media (max-width:768px){
     .container{
