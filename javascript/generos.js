@@ -6,7 +6,7 @@ fetch(` https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre`)
         let genero = datos.data;
             genero.forEach(function(dataGenero){
             let contenedor = document.querySelector(`.grid-container`);
-            contenedor.innerHTML +=  `  <a href="detallegenero.html">
+            contenedor.innerHTML +=  `  <a href="detallegenero.html?id=${dataGenero.id}">
                                         <div>
                                         <img class="imagen-genero" src=" ${dataGenero.picture_medium}" alt="" >
                                         <h5 class="genero-nombre" > ${dataGenero.name} </h5> 

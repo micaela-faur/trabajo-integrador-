@@ -5,7 +5,7 @@ let generoID = objetoquery.get("id")
 
 
 
-fetch(' https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+ generoID +"/artists')
+fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/'+ generoID )
     .then(function(respuesta){
         return respuesta.json();
     })
@@ -13,8 +13,8 @@ fetch(' https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+ gene
      let detalleGenero = datos;
      console.log(detalleGenero)  
      
-     let nombreGenero =document.querySelector('.nombre-genero')
-     nombreGenero.innerHTML=detalleGenero.name
+     let nombreGenero =document.querySelector('#generos')
+     nombreGenero.innerHTML=`<h2>${detalleGenero.name}</h2>`
 
             
     })
@@ -22,7 +22,7 @@ fetch(' https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+ gene
         console.error(error);
     })
 
-fetch(' https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+ artistaID +"/artists')
+fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/'+ generoID +'/artists')
 
   .then(function(respuesta){
     return respuesta.json();
@@ -30,10 +30,19 @@ fetch(' https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/"+ arti
     .then(function(datos){
         let nombreArtistas = datos.data;
         console.log(nombreArtistas)
+        for (const artistas of nombreArtistas) {
+            let top10 = document.querySelector ('.grid-container')
+            top10.innerHTML += `
+            <a href="artistasdetalles.html?id=${artistas.id}" class="text-decoration">
+            <div class= "grid-column1">
+            <img  src=" ${artistas.picture_medium}" alt="" >
+            <h3 class="letra-title"> ${artistas.name} </h3> 
+            </div>
+            </a>
+            
+            
+            
+            
+            `
+        }
     })
-  for (const artistas of nombreArtistas) {
-      let top10 = document.querySelector ('.artista')
-      top10.innerHTML = ` <div>  
-      <h4> ${artistas.name} </h4>
-  </div> `
-  }
