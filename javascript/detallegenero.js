@@ -31,8 +31,8 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/'+ gener
         let nombreArtistas = datos.data;
         console.log(nombreArtistas)
         for (const artistas of nombreArtistas) {
-            let top10 = document.querySelector ('.grid-container')
-            top10.innerHTML += `
+            let contenedorArtistas = document.querySelector ('.grid-container')
+            contenedorArtistas.innerHTML += `
             <a href="artistasdetalles.html?id=${artistas.id}" class="text-decoration">
             <div class= "grid-column1">
             <img  src=" ${artistas.picture_medium}" alt="" >
