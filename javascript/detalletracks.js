@@ -11,23 +11,32 @@ fetch(` https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/`+ trac
         let detalleTrack = datos;
         console.log(detalleTrack)
 
-            let titulo = document.querySelector(`#titulo-track`);
-            titulo.innerHTML = detalleTrack.title
+        let contenedor= document.querySelector(".contenedor")
+        contenedor.innerHTML=`
+        <div>
+        <div>
+            <img id="imagen-track" src="${detalleTrack.album.cover_big}" alt="">
+        </div>
+        <div>
+            <a href="artistasdetalles.html?id=${detalleTrack.artist.id}" id="nombre-artista"> <h3>${detalleTrack.artist.name} </h3>  </a> 
 
-            let nombreArtista = document.querySelector ("#nombre-artista")
-            nombreArtista.innerHTML = detalleTrack.artist.name
+        </div>
+       
+        <h1 id="titulo-track">${detalleTrack.title}</h1>
+        <div>
 
-            let duration = document.querySelector ("#duration")
-            duration.innerHTML = detalleTrack.duration + " minutos"
-
-            let audio = document.querySelector ("#audio")
-            audio.src = detalleTrack.preview 
-
-            let imagenTrack = document.querySelector ("#imagen-track")
-           imagenTrack.src = detalleTrack.artist.picture_medium
-
-            let nombreAlbum = document.querySelector ("#nombre-album")
-            nombreAlbum.innerHTML = detalleTrack.album.title
+              <a href="detallealbum.html?id=${detalleTrack.album.id}"  id="nombre-album"> <h4>${detalleTrack.album.title} </h4>  </a> 
+        </div>
+      
+       <div>
+        <audio id="audio" src="${detalleTrack.preview}" controls ></audio>
+       </div>
+        <p id="duration">${detalleTrack.duartion}</p>
+        <button class= "agregar"> Add to playlist</button>
+   </div>
+        
+        
+        `
             
     })
 
