@@ -31,7 +31,7 @@ fetch(` https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/`+ trac
        <div>
         <audio id="audio" src="${detalleTrack.preview}" controls ></audio>
        </div>
-        <p id="duration">${detalleTrack.duartion}</p>
+        <p id="duration">${detalleTrack.duration}</p>
         <button class= "agregar"> Add to playlist</button>
    </div>
         
