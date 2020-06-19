@@ -62,8 +62,9 @@ footer h3{
     padding: 50px;
     font-size: 35px;
 }
-
-
+.dezeer{
+    width: 400px;
+}
 #imagen-track{
     border-radius: 20px;
 }
@@ -87,6 +88,4 @@ footer h3{
     }
 
 }
-.dezeer{
-    width: 400px;
-}
+

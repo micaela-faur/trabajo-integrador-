@@ -47,3 +47,23 @@ footer h3{
 .dezeer{
     width: 400px;
 }
+@media only screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media only screen and (max-width:420px){
+    .container{
+        flex-direction: column;
+    }
+
+    .footer{
+        grid-template-columns:1fr;
+    }
+
+}
+

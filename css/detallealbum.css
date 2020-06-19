@@ -63,6 +63,9 @@ body{
     grid-template-columns: 2fr 1fr;
     margin-top: 30px;
 }
+.dezeer{
+    width: 400px;
+}
 footer h3{
     color: white;
     padding: 50px;
@@ -93,7 +96,4 @@ footer h3{
     .footer{
         grid-template-columns:1fr;
     }
-}
-.dezeer{
-    width: 400px;
 }
